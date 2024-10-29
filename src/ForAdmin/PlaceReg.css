@@ -1,0 +1,11 @@
+.PlaceReg-form-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #76C4EE;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

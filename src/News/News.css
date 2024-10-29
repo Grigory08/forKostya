@@ -1,0 +1,33 @@
+.news {
+    margin: 2rem;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.news-block {
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2vw;
+    width: 100%;
+    height: auto;
+    background-color: #76C4EE4D;
+    clip-path: polygon(
+        5% 0%,    /* Верхний левый угол */
+        95% 0%,    /* Верхний правый угол */
+        100% 50%,  /* Правый средний угол */
+        95% 100%,   /* Нижний правый угол */
+        5% 100%,   /* Нижний левый угол */
+        0% 50%     /* Левый средний угол */
+    );
+}
+
+.news-text {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.news-title {
+    font-size: 3vw;
+    font-weight: 900;
+}

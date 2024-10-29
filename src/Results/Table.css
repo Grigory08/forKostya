@@ -1,0 +1,44 @@
+.table-container {
+    display: inline-block;
+    max-width: 90vw;
+    margin: 50px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.table-title {
+    margin: 20px    ;
+}
+
+.resilt-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resilt-table th, td {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.resilt-table th {
+    background-color: #76C4EE;
+    color: white;
+}
+/*
+.fst {
+    background-color: ;
+}
+
+.sec {
+    background-color: ;
+}
+
+.frd {
+    background-color: ;
+}
+*/

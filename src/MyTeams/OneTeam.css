@@ -1,0 +1,37 @@
+.oneteam-container {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #76C4EE;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.oneteam-title {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.oneteam-text {
+    font-size: 18px;
+    color: gray;
+    margin: 5px 0;
+}
+
+.oneteam-children-info {
+    margin-top: 15px;
+    padding: 10px;
+    border-left: 4px solid #76C4EE;
+    background-color: #f9f9f9;
+}
+
+.oneteam-children-text {
+    font-weight: bold;
+    color: black;
+}
+
+.highlight {
+    color: #76C4EE;
+    font-weight: bold;
+}

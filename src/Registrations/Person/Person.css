@@ -1,0 +1,59 @@
+.person-form {
+    max-width: 400px;
+    width: 40%;
+    margin: 5vh auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.person-label {
+    font-size: 2vw;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    color: #555;
+}
+
+.person-input {
+    width: 100%;
+    height: 10%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.person-input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.person-title {
+    font-size: 3vw;
+    text-align: center;
+    color: #333;
+}
+
+.person-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.person-form-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #76C4EE;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.person-form-button:hover {
+    background-color: #004494;
+}

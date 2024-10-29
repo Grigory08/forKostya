@@ -1,0 +1,60 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./bgr.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top right;
+    background-attachment: scroll;
+    padding: 1% 2vw;
+}
+
+.header-title {
+    display: flex;
+    font-size: 3vw;
+    color: white;
+    align-items: flex-end;
+}
+
+.header-text {
+    align-items: center;
+}
+
+.logo-img {
+    width: 6.5vw;
+    margin-right: 1vw;
+}
+
+.header-button {
+    background: none;
+    border: none;
+    font-size: 2vw;
+    color: white;
+    margin: 0 1.5vw;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    text-decoration: underline;
+}
+
+.account {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bacc {
+    color: #7EC3ED;
+    font-size: 2vw;
+    border: none;
+    padding: 0.45vh 0.3vw;
+    cursor: pointer;
+}
+.yacc {
+    color: #F4CB00;
+    font-size: 3.5vw;
+    border: none;
+    padding: 0.45vh 3.5vw;
+    cursor: pointer;
+}
